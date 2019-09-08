@@ -37,3 +37,7 @@ entropy_tree = DecisionTreeClassifier(criterion='entropy', max_depth=6, random_s
 entropy_tree.fit(X_train, y_train)
 entropy_pred = entropy_tree.predict(X_test)
 accuracy_score(y_test,entropy_pred)
+
+print("My name is Yu Chi Chen")
+print("My NetID is: yuchicc2")
+print("I hereby certify that I have read the University policy on Academic Integrity and that I am not in violation.")
